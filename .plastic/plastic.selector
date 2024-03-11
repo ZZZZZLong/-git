@@ -1,0 +1,4 @@
+repository "UI-背包系统@wechat_os_qy0_pcrcxwt8kka9yjugbwj0m@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
