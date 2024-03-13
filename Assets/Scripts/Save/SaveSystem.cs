@@ -69,6 +69,7 @@ public class SaveSystem : MonoBehaviour
     1.声明一个函数来实现SaveSystem.SaveByJson(PLAYER_DATA_FILE_NAME, SavingData());
     2.声明一个常量来显示存档数据的存档名称 const String PLAYER_DATA_FILE_NAME = "PlayerData.zs"//后缀随便改
     3.保存玩家数据的SaveData类和方法SavingData
+    4.测试一次提交
 
  
  
