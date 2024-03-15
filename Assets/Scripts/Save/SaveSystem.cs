@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class SaveSystem : MonoBehaviour
 {
-    #region JSON
     public static void SaveByJson(string saveFileName, object data)
     {
         var json = JsonUtility.ToJson(data);
@@ -62,7 +61,6 @@ public class SaveSystem : MonoBehaviour
 
 
     }
-    #endregion
 }
 
 /* 使用方法：
