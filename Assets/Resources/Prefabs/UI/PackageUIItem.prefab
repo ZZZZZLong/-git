@@ -894,9 +894,89 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8182356356681976143}
     m_Modifications:
+    - target: {fileID: 2919396327305615663, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919396327305615663, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919396327305615663, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919396327305615663, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3439282672443705652, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
       propertyPath: m_Name
       value: Stars
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473141861973668957, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473141861973668957, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473141861973668957, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3473141861973668957, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217558352645649083, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217558352645649083, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217558352645649083, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217558352645649083, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647787839177274715, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647787839177274715, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647787839177274715, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647787839177274715, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7271341534903101620, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7271341534903101620, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7271341534903101620, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7271341534903101620, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8055316058940556303, guid: 52eba2a463cba10428c4d054b98b04e4, type: 3}
       propertyPath: m_Pivot.x

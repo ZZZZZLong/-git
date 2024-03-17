@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51256844506b2034e86a87627e086db4, type: 3}
+  m_Name: PackageTable
+  m_EditorClassIdentifier: 
+  DataList:
+  - id: 1
+    type: 1
+    star: 1
+    name: aAA
+    description: ASDASDASDA
+    skillDescription: ASDSADASD
+    imagePath: "Image/UI/Weapon/\u6B66\u5668_01"
+  - id: 2
+    type: 1
+    star: 2
+    name: DSDS
+    description: SADSADASD
+    skillDescription: SADSADSADADFGAG
+    imagePath: "Image/UI/Weapon/\u6B66\u5668_02"

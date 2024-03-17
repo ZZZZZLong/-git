@@ -360,6 +360,7 @@
 "Assets/Scripts/Sound/Globals.cs"
 "Assets/Scripts/Sound/SoundManager.cs"
 "Assets/Scripts/UI/BasePanel.cs"
+"Assets/Scripts/UI/UIManager 1.cs"
 "Assets/Scripts/UI/UIManager.cs"
 "Assets/Scripts/UI_1.cs"
 "Assets/Scripts/UI_2.cs"

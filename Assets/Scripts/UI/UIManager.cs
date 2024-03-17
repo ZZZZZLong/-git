@@ -1,24 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
-
-public class UIManager : Singleton<UIManager>
+public class UIManager
 {
-
+    private static UIManager _instance;
     private Transform _uiRoot;
-
+    // è·¯å¾„é…ç½®å­—å…¸
     private Dictionary<string, string> pathDict;
-    //»º´æÔ¤ÖÆ¼ş
+    // é¢„åˆ¶ä»¶ç¼“å­˜å­—å…¸
     private Dictionary<string, GameObject> prefabDict;
-    //Ò»´ò¿ª½çÃæµÄ»º´æ×Öµä
-    public  Dictionary<string, BasePanel> panelDict;
+    // å·²æ‰“å¼€ç•Œé¢çš„ç¼“å­˜å­—å…¸
+    public Dictionary<string, BasePanel> panelDict;
 
+    public static UIManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = new UIManager();
+            }
+            return _instance;
+        }
+    }
 
     public Transform UIRoot
     {
         get
         {
-            if(_uiRoot == null)
+            if (_uiRoot == null)
             {
                 if (GameObject.Find("Canvas"))
                 {
@@ -27,98 +38,100 @@ public class UIManager : Singleton<UIManager>
                 else
                 {
                     _uiRoot = new GameObject("Canvas").transform;
-                     
                 }
-                
-            }
+            };
             return _uiRoot;
         }
     }
 
-
-    public UIManager()
+    private UIManager()
     {
-        InitDicts();//¹¹Ôìº¯Êı ÓÃÓÚ³õÊ¼»¯Ò»Ğ©×Ö¶ÎºÍÊôĞÔ//Ê¹ÓÃ¹«¹²¹¹Ôì·½·¨ÊÇÒòÎª¼Ì³Ğ¸¸Ààµ¥ÀıÄ£Ê½ºóÃ»ÓĞ²»¾ß±¸¹«¹²µÄÎŞ²Î¹¹Ôìº¯Êı»á±¨´í
-        
-        
+        InitDicts();
     }
-   
+
     private void InitDicts()
     {
         prefabDict = new Dictionary<string, GameObject>();
         panelDict = new Dictionary<string, BasePanel>();
+
         pathDict = new Dictionary<string, string>()
         {
-            //ĞèÒªĞÂµÄUI¾ÍÍùÀïÃæ¼Ó
-            {UIConst.UI_1,"UI/UI_1" },
-            {UIConst.UI_2,"UI/UI_2" }
-
+            {UIConst.PackagePanel, "Package/PackagePanel"},
         };
-        //ÒòÎª×Öµä²»»á´æÈëÖØ¸´µÄ¼ü£¬ËùÒÔÊ¹ÓÃ¹«¹²¹¹Ôì·½·¨ ÔÚÍâ²¿ÊµÀı»¯µÄ»°Ò²²»»áÀÛ¼Ó×ÖµäÀïµÄÖµ
-
-
     }
 
-    //´ò¿ª½çÃæ
-    public BasePanel OpenPanel(string name)
+    public BasePanel GetPanel(string name)
     {
         BasePanel panel = null;
-        //¼ì²éÊÇ·ñÒÑ¾­´ò¿ª
-        if(panelDict.TryGetValue(name,out panel))
+        // æ£€æŸ¥æ˜¯å¦å·²æ‰“å¼€
+        if (panelDict.TryGetValue(name, out panel))
         {
-            Debug.Log("½çÃæÒÑ´ò¿ª£º " + name);
+            return panel;
+        }
+        return null;
+    }
+
+    public BasePanel OpenPanel(string name)
+    {
+        
+        BasePanel panel = null;
+        // æ£€æŸ¥æ˜¯å¦å·²æ‰“å¼€
+        if (panelDict.TryGetValue(name, out panel))
+        {
+            Debug.Log("ç•Œé¢å·²æ‰“å¼€: " + name);
             return null;
         }
-        //¼ì²éÂ·¾¶ÊÇ·ñÓĞÅäÖÃ
+
+        // æ£€æŸ¥è·¯å¾„æ˜¯å¦é…ç½®
         string path = "";
-        
         if (!pathDict.TryGetValue(name, out path))
         {
-            Debug.Log("½çÃæÃû³ÆÓĞÎó£¬»òÎ´ÅäÖÃÂ·¾¶£º " + name);
+            Debug.Log("ç•Œé¢åç§°é”™è¯¯ï¼Œæˆ–æœªé…ç½®è·¯å¾„: " + name);
             return null;
         }
-        
 
-        //Ê¹ÓÃ»º´æµÄÔ¤ÖÆ¼ş
+        // ä½¿ç”¨ç¼“å­˜é¢„åˆ¶ä»¶
         GameObject panelPrefab = null;
         if (!prefabDict.TryGetValue(name, out panelPrefab))
         {
-            string realpath = "Prefabs/" + path;
-            panelPrefab = Resources.Load<GameObject>(realpath) as GameObject;
-           
+            string realPath = "Prefab/Panel/" + path;
+
+            panelPrefab = Resources.Load<GameObject>(realPath) as GameObject;
             prefabDict.Add(name, panelPrefab);
-            
         }
-       
-        //´ò¿ª½çÃæ
-        GameObject panelObject = GameObject.Instantiate(panelPrefab , UIRoot ,false);
+
+        // æ‰“å¼€ç•Œé¢
+        GameObject panelObject = GameObject.Instantiate(panelPrefab, UIRoot, false);
+        Debug.Log(panelPrefab);
         panel = panelObject.GetComponent<BasePanel>();
         panelDict.Add(name, panel);
-        panel.OpenPanel(name);
-        return panel;
+        Debug.Log(name);
+        panel.OpenPanel(name);//æœ‰é—®é¢˜
 
+        
+        return panel;
     }
-    //¹Ø±Õ½çÃæ
+
     public bool ClosePanel(string name)
     {
         BasePanel panel = null;
-        if(!panelDict.TryGetValue(name,out panel))
+        if (!panelDict.TryGetValue(name, out panel))
         {
-            Debug.LogError("½çÃæÎ´´ò¿ª£º" + name);
+            Debug.Log("ç•Œé¢æœªæ‰“å¼€: " + name);
             return false;
         }
 
         panel.ClosePanel();
+        // panelDict.Remove(name);
         return true;
     }
-
 
 }
 
 public class UIConst
 {
-    public const string MainMenuPanel = "MainMenuPanel";//ÔÚÕâÀï´æ´¢ËùÓĞui¶ÔÏóµÄÃû³Æ£¨²»Í¬µÄ½çÃæ£© Ä¿Ç°ĞèÒª¿ªÊ¼½çÃæ ºÍ²Ëµ¥£¨ÔİÍ££©½çÃæ ºÍ±³¾°»ù±¾½çÃæ ÅäÖÃÂ·¾¶±í 
-    public const string UI_1 = "UI_1";
-    public const string UI_2 = "UI_2";
+    // menu panels
+
+    public const string PackagePanel = "PackagePanel";
 }
 
