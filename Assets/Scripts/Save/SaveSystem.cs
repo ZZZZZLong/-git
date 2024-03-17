@@ -16,7 +16,7 @@ public class SaveSystem : MonoBehaviour
         
         try
         {
-            Debug.Log($"成功存档数据在{path}.");
+            Debug.Log($"成功存档数据在{path}");
 
         }
         catch (System.Exception exception)
