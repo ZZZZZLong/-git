@@ -1,0 +1,4018 @@
+{
+    "0": {
+        "No": "000",
+        "Name": "后备储存(n15)",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_000.png",
+        "discription": "所有我方单位的攻击力+23%",
+        "price": "——",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.23
+        }
+    },
+    "1": {
+        "No": "001",
+        "Name": "地形图",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_001.png",
+        "discription": "【常态化】可同时部署人数+1，所有我方单位的防御力+4%【高寒化】 可同时部署人数 + 1， 所有我方单位的防御力 + 5 % 【冻土化】 可同时部署人数 + 1， 所有我方单位的防御力 + 6 % 【极地化】 可同时部署人数 + 1， 所有我方单位的防御力 + 6 % ，场上每有一个我方单位防御力额外 + 0.5 % ",
+        "price": "8",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "常态化": { "DEF_Inc_Mult": 0.04 },
+            "高寒化": { "DEF_Inc_Mult": 0.05 },
+            "冻土化": { "DEF_Inc_Mult": 0.06 },
+            "极地化": { "DEF_Inc_Mult": 0.06 }
+        }
+    },
+    "2": {
+        "No": "002",
+        "Name": "神音海螺",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_002.png",
+        "discription": "【常态化】可同时部署人数+1，所有我方单位的生命值+4%【高寒化】 可同时部署人数 + 1， 所有我方单位的生命值 + 5 % 【冻土化】 可同时部署人数 + 1， 所有我方单位的生命值 + 6 % 【极地化】 可同时部署人数 + 1， 所有我方单位的生命值 + 6 % ，场上每有一个我方单位生命值额外 + 0.5 % ",
+        "price": "8",
+        "collection_type": "加生命",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "常态化": { "HP_Inc_Mult": 0.04 },
+            "高寒化": { "HP_Inc_Mult": 0.05 },
+            "冻土化": { "HP_Inc_Mult": 0.06 },
+            "极地化": { "HP_Inc_Mult": 0.06 }
+        }
+    },
+    "3": {
+        "No": "003",
+        "Name": "林间夜话",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_003.png",
+        "discription": "【常态化】可同时部署人数+2，所有我方单位的防御力+6%【高寒化】 可同时部署人数 + 2， 所有我方单位的防御力 + 7 % 【冻土化】 可同时部署人数 + 2， 所有我方单位的防御力 + 8 % 【极地化】 可同时部署人数 + 2， 所有我方单位的防御力 + 8 % ，场上每有一个我方单位防御力额外 + 0.5 % ",
+        "price": "12",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "常态化": { "DEF_Inc_Mult": 0.06 },
+            "高寒化": { "DEF_Inc_Mult": 0.07 },
+            "冻土化": { "DEF_Inc_Mult": 0.08 },
+            "极地化": { "DEF_Inc_Mult": 0.08 }
+        }
+    },
+    "4": {
+        "No": "004",
+        "Name": "教堂救济餐券",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_004.png",
+        "discription": "【常态化】可同时部署人数+2，所有我方单位的生命值+6%【高寒化】 可同时部署人数 + 2， 所有我方单位的生命值 + 7 % 【冻土化】 可同时部署人数 + 2， 所有我方单位的生命值 + 8 % 【极地化】 可同时部署人数 + 2， 所有我方单位的生命值 + 8 % ，场上每有一个我方单位生命值额外 + 0.5 % ",
+        "price": "12",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "常态化": { "HP_Inc_Mult": 0.06 },
+            "高寒化": { "HP_Inc_Mult": 0.07 },
+            "冻土化": { "HP_Inc_Mult": 0.08 },
+            "极地化": { "HP_Inc_Mult": 0.08 }
+        }
+    },
+    "5": {
+        "No": "005",
+        "Name": "红色蝴蝶结",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_005.png",
+        "discription": "【常态化】希望+2，可同时部署人数+1【高寒化】 希望 + 3， 可同时部署人数 + 1【冻土化】 希望 + 4， 可同时部署人数 + 1【极地化】 希望 + 4， 可同时部署人数 + 1， 非战斗节点进行的战斗可同时部署人数额外 + 2 ",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "6": {
+        "No": "006",
+        "Name": "独奏八音盒",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_006.png",
+        "discription": "【常态化】希望+4，可同时部署人数+1【高寒化】 希望 + 5， 可同时部署人数 + 1【冻土化】 希望 + 6， 可同时部署人数 + 1【极地化】 希望 + 6， 可同时部署人数 + 1， 险路恶敌战斗可同时部署人数额外 + 1 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "7": {
+        "No": "007",
+        "Name": "被撬开的道具箱",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_007.png",
+        "discription": "【常态化】希望+4【高寒化】 希望 + 4， 立即获得源石锭 + 3【 冻土化】 希望 + 4， 立即获得源石锭 + 4【 极地化】 希望 + 4， 立即获得源石锭 + 5 ",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "8": {
+        "No": "008",
+        "Name": "古旧乐谱残章",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_008.png",
+        "discription": "【常态化】希望+4【高寒化】 希望 + 4， 所有我方单位的攻击速度 + 4【冻土化】 希望 + 4， 所有我方单位的攻击速度 + 5【极地化】 希望 + 4， 所有我方单位的攻击速度 + 6 ",
+        "price": "8",
+        "collection_type": "资源 加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "高寒化": { "ATK_Speed_Add": 4 },
+            "冻土化": { "ATK_Speed_Add": 5 },
+            "极地化": { "ATK_Speed_Add": 6 }
+        }
+    },
+    "9": {
+        "No": "009",
+        "Name": "解约协议",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_009.png",
+        "discription": "【常态化】希望+4【高寒化】 希望 + 4， 回复1目标生命【 冻土化】 希望 + 4， 回复2目标生命【 极地化】 希望 + 4， 回复3目标生命 ",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "10": {
+        "No": "010",
+        "Name": "万能钥匙",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_010.png",
+        "discription": "【常态化】希望+6【高寒化】 希望 + 6， 坍缩值 - 1【 冻土化】 希望 + 7， 坍缩值 - 1【 极地化】 希望 + 7， 坍缩值 - 2 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "11": {
+        "No": "011",
+        "Name": "古旧钱币",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_011.png",
+        "discription": "【常态化】立即获得源石锭+10【高寒化】 立即获得源石锭 + 10， 希望 + 1【 冻土化】 立即获得源石锭 + 11， 希望 + 1【 极地化】 立即获得源石锭 + 12， 希望 + 1 ",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "12": {
+        "No": "012",
+        "Name": "演员的首饰盒",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_012.png",
+        "discription": "【常态化】立即获得源石锭+18【高寒化】 立即获得源石锭 + 18， 每当坍缩值增长时获得源石锭 + 1【 冻土化】 立即获得源石锭 + 19， 每当坍缩值增长时获得源石锭 + 1【 极地化】 立即获得源石锭 + 20， 每当坍缩值增长时获得源石锭 + 1 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "13": {
+        "No": "013",
+        "Name": "游戏室管理员权限卡",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_013.png",
+        "discription": "【常态化】立即进阶一个干员（不消耗希望）【高寒化】 立即获得源石锭 + 2， 并进阶一个干员（ 不消耗希望）【 冻土化】 立即获得源石锭 + 2， 并进阶一个干员（ 不消耗且获得1希望）【 极地化】 立即获得源石锭 + 4， 并进阶一个干员（ 不消耗且获得1希望） ",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "14": {
+        "No": "014",
+        "Name": "Miss.Christine摸摸券",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_014.png",
+        "discription": "【常态化】立即进阶两个干员（不消耗希望）【高寒化】 护盾值 + 1， 并进阶两个干员（ 不消耗希望）【 冻土化】 护盾值 + 1， 并进阶两个干员（ 不消耗且获得1希望）【 极地化】 护盾值 + 2， 并进阶两个干员（ 不消耗且获得1希望） ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "15": {
+        "No": "015",
+        "Name": "地区行动方案",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_015.png",
+        "discription": "【常态化】招募4星干员的希望消耗-2【高寒化】 希望 + 1， 招募4星干员的希望消耗 - 2【 冻土化】 希望 + 1， 招募4星干员的希望消耗 - 2， 每次招募有概率出现随机直升的4星干员【 极地化】 希望 + 2， 招募4星干员的希望消耗 - 2， 每次招募有概率出现随机直升的4星干员 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "16": {
+        "No": "016",
+        "Name": "全局作战文件",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_016.png",
+        "discription": "【常态化】招募5星干员的希望消耗-2【高寒化】 希望 + 1， 招募5星干员的希望消耗 - 2【 冻土化】 希望 + 1， 招募5星干员的希望消耗 - 2， 每次招募有概率出现随机直升的5星干员【 极地化】 希望 + 2， 招募5星干员的希望消耗 - 2， 每次招募有概率出现随机直升的5星干员 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "17": {
+        "No": "017",
+        "Name": "人事部密信",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_017.png",
+        "discription": "【常态化】招募6星干员的希望消耗-2【高寒化】 希望 + 1， 招募6星干员的希望消耗 - 2【 冻土化】 希望 + 1， 招募6星干员的希望消耗 - 2， 每次招募有概率出现随机直升的6星干员【 极地化】 希望 + 2， 招募6星干员的希望消耗 - 2， 每次招募有概率出现随机直升的6星干员 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "18": {
+        "No": "018",
+        "Name": "罗德岛战术电台",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_018.png",
+        "discription": "【常态化】战斗后掉落招募券时，增加一个可选项【高寒化】 希望 + 1， 战斗后掉落招募券时， 增加一个可选项【 冻土化】 希望 + 1， 战斗后掉落招募券时， 增加两个可选项【 极地化】 希望 + 2， 战斗后掉落招募券时， 增加两个可选项 ",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "19": {
+        "No": "019",
+        "Name": "精选兽肉罐头",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_019.png",
+        "discription": "可携带干员+1，所有我方单位每秒回复3点生命",
+        "price": "8",
+        "collection_type": "资源 回复",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Rec": 3
+        }
+    },
+    "20": {
+        "No": "020",
+        "Name": "凉拌海草",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_020.png",
+        "discription": "可携带干员+1，所有我方单位的攻击速度+1",
+        "price": "8",
+        "collection_type": "资源 加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 1
+        }
+    },
+    "21": {
+        "No": "021",
+        "Name": "橙味风暴",
+        "img_path": ".pngF:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_021.png",
+        "discription": "可携带干员+1，所有我方单位的攻击力+1%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.01
+        }
+    },
+    "22": {
+        "No": "022",
+        "Name": "咖啡平原咖啡糖",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_022.png",
+        "discription": "可携带干员+2，所有我方单位的攻击速度+2",
+        "price": "12",
+        "collection_type": "资源 加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 2
+        }
+    },
+    "23": {
+        "No": "023",
+        "Name": "尖叫樱桃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_023.png",
+        "discription": "可携带干员+2，所有我方单位的攻击力+2%",
+        "price": "12",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.02
+        }
+    },
+    "24": {
+        "No": "024",
+        "Name": "皮特水果什锦",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_024.png",
+        "discription": "可携带干员+3，所有我方单位的攻击力、防御力和生命值+3%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.03,
+            "DEF_Inc_Mult": 0.03,
+            "HP_Inc_Mult": 0.03
+        }
+    },
+    "25": {
+        "No": "025",
+        "Name": "特级馥郁咖啡豆",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_025.png",
+        "discription": "可携带干员+1，可同时部署人数+1，护盾值+1",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "26": {
+        "No": "026",
+        "Name": "蓝色丝巾",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_026.png",
+        "discription": "希望+2，可携带干员+1",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "27": {
+        "No": "027",
+        "Name": "源石鸢尾花",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_027.png",
+        "discription": "希望+6，可携带干员+2",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "28": {
+        "No": "028",
+        "Name": "古怪的长笛",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_028.png",
+        "discription": "希望+4，可携带干员+1",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "29": {
+        "No": "029",
+        "Name": "玻璃小鸟",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_029.png",
+        "discription": "希望+4，可携带干员+1",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "30": {
+        "No": "030",
+        "Name": "赤金的远征",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_030.png",
+        "discription": "希望+4，可携带干员+1，可同时部署人数+1",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "31": {
+        "No": "031",
+        "Name": "《杜林地上环游记》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_031.png",
+        "discription": "护盾值+4",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "32": {
+        "No": "032",
+        "Name": "《旧高卢地名源流考》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_032.png",
+        "discription": "护盾值+6",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "33": {
+        "No": "033",
+        "Name": "热水壶",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_033.png",
+        "discription": "目标生命上限+1，希望+1",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "34": {
+        "No": "034",
+        "Name": "特殊抑制器",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_034.png",
+        "discription": "目标生命上限+2，回复2目标生命",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "35": {
+        "No": "035",
+        "Name": "石像鬼塑像",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_035.png",
+        "discription": "目标生命上限+3",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "36": {
+        "No": "036",
+        "Name": "血魔的寝床",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_036.png",
+        "discription": "目标生命上限+4",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "37": {
+        "No": "037",
+        "Name": "长生者之证",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_037.png",
+        "discription": "目标生命上限+6",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "38": {
+        "No": "038",
+        "Name": "女妖之吻",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_038.png",
+        "discription": "希望+8",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "39": {
+        "No": "039",
+        "Name": "无瑕宝玉",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_039.png",
+        "discription": "立即获得源石锭+25",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "40": {
+        "No": "040",
+        "Name": "钝爪-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_040.png",
+        "discription": "立即进阶一个【先锋】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "41": {
+        "No": "041",
+        "Name": "折戟-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_041.png",
+        "discription": "立即进阶一个【近卫】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "42": {
+        "No": "042",
+        "Name": "",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_042.png",
+        "discription": "立即进阶一个【近卫】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "43": {
+        "No": "043",
+        "Name": "残弩-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_043.png",
+        "discription": "立即进阶一个【狙击】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "44": {
+        "No": "044",
+        "Name": "断杖-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_044.png",
+        "discription": "立即进阶一个【术师】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "45": {
+        "No": "045",
+        "Name": "支柱-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_045.png",
+        "discription": "立即进阶一个【辅助】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "46": {
+        "No": "046",
+        "Name": "医者-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_046.png",
+        "discription": "立即进阶一个【医疗】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "47": {
+        "No": "047",
+        "Name": "锈刃-典训",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_047.png",
+        "discription": "立即进阶一个【特种】干员（不消耗希望）",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "48": {
+        "No": "048",
+        "Name": "维多利亚“废铁”勋章",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_048.png",
+        "discription": "战斗获得的指挥经验+20%",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "49": {
+        "No": "049",
+        "Name": "光谱分析仪",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_049.png",
+        "discription": "抗干扰指数+1，护盾值+2",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "50": {
+        "No": "050",
+        "Name": "闲暇时光",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_050.png",
+        "discription": "可携带干员+1，抗干扰指数+1",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "51": {
+        "No": "051",
+        "Name": "宁静泉流",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_051.png",
+        "discription": "抗干扰指数+2，目标生命上限+3，希望+3",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "52": {
+        "No": "52",
+        "Name": "突击协议-利刃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_052.png",
+        "discription": "战斗编队中每有一名先锋和近卫干员，所有先锋和近卫干员的攻击力+8%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "先锋 近卫",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "53": {
+        "No": "053",
+        "Name": "突击协议-散兵",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_053.png",
+        "discription": "战斗编队中每有一名先锋和近卫干员，所有先锋和近卫干员的防御力+10%",
+        "price": "8",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "先锋 近卫",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "DEF_Inc_Mult": 0.1
+        }
+    },
+    "54": {
+        "No": "54",
+        "Name": "堡垒协议-方阵",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_054.png",
+        "discription": "战斗编队中每有一名重装和辅助干员，所有重装和辅助干员的攻击力+8%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "重装 辅助",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "55": {
+        "No": "055",
+        "Name": "堡垒协议-固守",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_055.png",
+        "discription": "战斗编队中每有一名重装和辅助干员，所有重装和辅助干员的防御力+10%",
+        "price": "8",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "重装 辅助",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "DEF_Inc_Mult": 0.1
+        }
+    },
+    "56": {
+        "No": "056",
+        "Name": "远程协议-遥击",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_056.png",
+        "discription": "战斗编队中每有一名医疗和狙击干员，所有医疗和狙击干员的攻击力+8%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "医疗 狙击",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "57": {
+        "No": "057",
+        "Name": "远程协议-克敌",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_057.png",
+        "discription": "战斗编队中每有一名医疗和狙击干员，所有医疗和狙击干员的攻击速度+6",
+        "price": "8",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "医疗 狙击",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 6
+        }
+    },
+    "58": {
+        "No": "058",
+        "Name": "破坏协议-消除",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_058.png",
+        "discription": "战斗编队中每有一名术师和特种干员，所有术师和特种干员的攻击力+8%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "术士 特种",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "59": {
+        "No": "059",
+        "Name": "破坏协议-压制",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_059.png",
+        "discription": "战斗编队中每有一名术师和特种干员，所有术师和特种干员的攻击速度+6",
+        "price": "8",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "术士 特种",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 6
+        }
+    },
+    "60": {
+        "No": "060",
+        "Name": "开裂的束缚带",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_060.png",
+        "discription": "所有敌方单位的攻击力-7%",
+        "price": "8",
+        "collection_type": "减攻",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_ATK_Inc_Mult": -0.07
+        }
+    },
+    "61": {
+        "No": "061",
+        "Name": "奇渊面具",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_061.png",
+        "discription": "所有敌方单位的攻击力-12%",
+        "price": "12",
+        "collection_type": "减攻",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_ATK_Inc_Mult": -0.12
+        }
+    },
+    "62": {
+        "No": "062",
+        "Name": "教母的信物",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_062.png",
+        "discription": "所有敌方单位的攻击力-17%",
+        "price": "16",
+        "collection_type": "减攻",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_ATK_Inc_Mult": -0.17
+        }
+    },
+    "63": {
+        "No": "063",
+        "Name": "残破合影",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_063.png",
+        "discription": "所有敌方单位的防御力-12%",
+        "price": "8",
+        "collection_type": "减防",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_DEF_Inc_Mult": -0.12
+        }
+    },
+    "64": {
+        "No": "064",
+        "Name": "恐鱼干",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_064.png",
+        "discription": "所有敌方单位的防御力-21%",
+        "price": "12",
+        "collection_type": "减防",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_DEF_Inc_Mult": -0.21
+        }
+    },
+    "65": {
+        "No": "065",
+        "Name": "迷迭香之拥",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_065.png",
+        "discription": "所有敌方单位的防御力-30%",
+        "price": "16",
+        "collection_type": "减防",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_DEF_Inc_Mult": -0.3
+        }
+    },
+    "66": {
+        "No": "066",
+        "Name": "镶金骨骰",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_066.png",
+        "discription": "所有敌方单位的生命-15%",
+        "price": "12",
+        "collection_type": "减生命值",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_HP_Inc_Mult": -0.15
+        }
+    },
+    "67": {
+        "No": "067",
+        "Name": "“黑夜呢喃”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_067.png",
+        "discription": "所有敌方单位的生命-10%",
+        "price": "8",
+        "collection_type": "减生命值",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_HP_Inc_Mult": -0.1
+        }
+    },
+    "68": {
+        "No": "068",
+        "Name": "《大静谧》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_068.png",
+        "discription": "所有敌方单位的生命-20%",
+        "price": "16",
+        "collection_type": "减生命值",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_HP_Inc_Mult": -0.2
+        }
+    },
+    "69": {
+        "No": "069",
+        "Name": "异铁小圆盾",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_069.png",
+        "discription": "所有我方单位的防御力+15%",
+        "price": "8",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "DEF_Inc_Mult": 0.15
+        }
+    },
+    "70": {
+        "No": "070",
+        "Name": "军团护心镜",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_070.png",
+        "discription": "所有我方单位的防御力+25%",
+        "price": "12",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "DEF_Inc_Mult": 0.25
+        }
+    },
+    "71": {
+        "No": "071",
+        "Name": "古旧的蒸汽甲胄",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_071.png",
+        "discription": "所有我方单位的防御力+35%",
+        "price": "16",
+        "collection_type": "加防",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "DEF_Inc_Mult": 0.35
+        }
+    },
+    "72": {
+        "No": "072",
+        "Name": "皇帝的恩宠",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_072.png",
+        "discription": "所有我方近战单位的攻击力+15%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.15
+        }
+    },
+    "73": {
+        "No": "073",
+        "Name": "贵族刺剑",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_073.png",
+        "discription": "所有我方近战单位的攻击力+25%",
+        "price": "12",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.25
+        }
+    },
+    "74": {
+        "No": "074",
+        "Name": "老近卫军之锋",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_074.png",
+        "discription": "所有我方近战单位的攻击力+35%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.35
+        }
+    },
+    "75": {
+        "No": "075",
+        "Name": "显圣吊坠",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_075.png",
+        "discription": "所有我方远程单位的攻击力+15%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.15
+        }
+    },
+    "76": {
+        "No": "076",
+        "Name": "银餐叉",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_076.png",
+        "discription": "所有我方远程单位的攻击力+25%",
+        "price": "12",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.25
+        }
+    },
+    "77": {
+        "No": "077",
+        "Name": "损坏的左轮弹巢",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_077.png",
+        "discription": "所有我方远程单位的攻击力+35%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.35
+        }
+    },
+    "78": {
+        "No": "078",
+        "Name": "难闻的止血剂",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_078.png",
+        "discription": "所有我方单位的生命+20%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.2
+        }
+    },
+    "79": {
+        "No": "079",
+        "Name": "急救药箱",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_079.png",
+        "discription": "所有我方单位的生命+35%",
+        "price": "12",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.35
+        }
+    },
+    "80": {
+        "No": "080",
+        "Name": "未知仪器",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_080.png",
+        "discription": "所有我方单位的生命+50%",
+        "price": "16",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.5
+        }
+    },
+    "81": {
+        "No": "081",
+        "Name": "锈蚀刀片",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_081.png",
+        "discription": "所有敌方单位受到的物理伤害+15%",
+        "price": "8",
+        "collection_type": "物理增伤",
+        "DMG_type": "物理",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Phy_Vul":  0.15
+        }
+    },
+    "82": {
+        "No": "082",
+        "Name": "赶车夫的长鞭",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_082.png",
+        "discription": "所有敌方单位受到的物理伤害+25%",
+        "price": "12",
+        "collection_type": "物理增伤",
+        "DMG_type": "物理",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Phy_Vul":  0.25
+        }
+    },
+    "83": {
+        "No": "083",
+        "Name": "“复仇者”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_083.png",
+        "discription": "所有敌方单位受到的物理伤害+35%",
+        "price": "16",
+        "collection_type": "物理增伤",
+        "DMG_type": "物理",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Phy_Vul":  0.35
+        }
+    },
+    "84": {
+        "No": "084",
+        "Name": "制式防暴用具",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_084.png",
+        "discription": "所有敌方单位受到的法术伤害+20%",
+        "price": "8",
+        "collection_type": "法术增伤",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Spell_Vul": 0.2
+        }
+    },
+    "85": {
+        "No": "085",
+        "Name": "皇帝的收藏",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_085.png",
+        "discription": "所有敌方单位受到的法术伤害+30%",
+        "price": "12",
+        "collection_type": "法术增伤",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Spell_Vul": 0.3
+        }
+    },
+    "86": {
+        "No": "086",
+        "Name": "“璀璨悲泣”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_086.png",
+        "discription": "所有敌方单位受到的法术伤害+40%",
+        "price": "16",
+        "collection_type": "法术增伤",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Spell_Vul": 0.4
+        }
+    },
+    "87": {
+        "No": "087",
+        "Name": "活玫瑰",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_087.png",
+        "discription": "所有我方单位受到的治疗和生命回复效果+20%",
+        "price": "8",
+        "collection_type": "回复",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Helling_Effect": 0.2,
+            "HP_Regen_Effect": 0.2
+        }
+    },
+    "88": {
+        "No": "088",
+        "Name": "苍白花冠",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_088.png",
+        "discription": "所有我方单位受到的治疗和生命回复效果+30%",
+        "price": "12",
+        "collection_type": "回复",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Helling_Effect": 0.3,
+            "HP_Regen_Effect": 0.3
+        }
+    },
+    "089": {
+        "No": "089",
+        "Name": "演出用香水",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_089.png",
+        "discription": "所有我方单位每秒回复1%的最大生命值",
+        "price": "12",
+        "collection_type": "回复",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Max_HP_Regen": 0.01
+        }
+    },
+    "90": {
+        "No": "090",
+        "Name": "设计师量尺",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_090.png",
+        "discription": "所有我方单位获得15%物理闪避",
+        "price": "8",
+        "collection_type": "加物理闪避",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Phy_Miss": 0.15
+        }
+    },
+    "91": {
+        "No": "091",
+        "Name": "“法术杀手”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_091.png",
+        "discription": "所有我方单位获得15%法术闪避",
+        "price": "8",
+        "collection_type": "加法术闪避",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Spell_Miss": 0.15
+        }
+    },
+    "92": {
+        "No": "092",
+        "Name": "舞者手链",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_092.png",
+        "discription": "所有我方单位获得10%物理与法术闪避",
+        "price": "12",
+        "collection_type": "加物理闪避 加法术闪避",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Phy_Miss": 0.1,
+            "Spell_Miss": 0.1  
+        }
+    },
+    "93": {
+        "No": "093",
+        "Name": "人偶之家",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_093.png",
+        "discription": "初始部署费用+10",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "94": {
+        "No": "094",
+        "Name": "微缩舞台模型",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_094.png",
+        "discription": "初始部署费用+20",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "95": {
+        "No": "095",
+        "Name": "缠梦古堡模型",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_095.png",
+        "discription": "初始部署费用+30",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "96": {
+        "No": "096",
+        "Name": "漆黑的舞鞋",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_096.png",
+        "discription": "可以在高台部署近战位干员",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "97": {
+        "No": "097",
+        "Name": "洁白的舞鞋",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_097.png",
+        "discription": "可以在低地部署远程位干员",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "98": {
+        "No": "098",
+        "Name": "古高卢银币",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_098.png",
+        "discription": "所有干员的初始技力+6",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Add": 6
+        }
+    },
+    "99": {
+        "No": "099",
+        "Name": "高卢银行支票",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_099.png",
+        "discription": "所有干员的初始技力+12",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Add": 12
+        }
+    },
+    "100": {
+        "No": "100",
+        "Name": "《第二经济改革法》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_100.png",
+        "discription": "所有干员的初始技力+18",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Add": 18
+        }
+    },
+    "101": {
+        "No": "101",
+        "Name": "香草沙士汽水",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_101.png",
+        "discription": "所有自然回复技能的技力恢复+0.2/秒",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Rec": 0.2
+        }
+    },
+    "102": {
+        "No": "102",
+        "Name": "羽兽肝酱",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_102.png",
+        "discription": "所有自然回复技能的技力恢复+0.35/秒",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Rec": 0.35
+        }
+    },
+    "103": {
+        "No": "103",
+        "Name": "迷梦香精",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_103.png",
+        "discription": "所有自然回复技能的技力恢复+0.5/秒",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Rec": 0.5
+        }
+    },
+    "104": {
+        "No": "104",
+        "Name": "摩根队长佳酿",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_104.png",
+        "discription": "所有攻击和受击回复的技能每3秒回复1点技力",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "105": {
+        "No": "105",
+        "Name": "生命之水",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_105.png",
+        "discription": "所有攻击和受击回复的技能每2.5秒回复1点技力",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "106": {
+        "No": "106",
+        "Name": "皇家利口酒",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_106.png",
+        "discription": "所有攻击和受击回复的技能每1.5秒回复1点技力",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "107": {
+        "No": "107",
+        "Name": "悬丝傀儡",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_107.png",
+        "discription": "敌人被晕眩、冰冻、束缚时，每秒受到700点法术伤害",
+        "price": "12",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "108": {
+        "No": "108",
+        "Name": "“童趣玩偶”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_108.png",
+        "discription": "敌人被晕眩、冰冻、束缚时，每秒受到1000点法术伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "109": {
+        "No": "109",
+        "Name": "凯旋号角",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_109.png",
+        "discription": "敌人受到的一次性晕眩、寒冷、冰冻等异常效果影响时间提高100%",
+        "price": "12",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Control_Time": 1
+        }
+    },
+    "110": {
+        "No": "110",
+        "Name": "高闪相机",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_110.png",
+        "discription": "敌人受到的一次性晕眩、寒冷、冰冻等异常效果影响时间提高110%",
+        "price": "12",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Control_Time": 1.1
+        }
+    },
+    "111": {
+        "No": "111",
+        "Name": "精神治疗录像带",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_111.png",
+        "discription": "敌人受到的一次性晕眩、寒冷、冰冻等异常效果影响时间提高150%",
+        "price": "16",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Control_Time": 1.5
+        }
+    },
+    "112": {
+        "No": "112",
+        "Name": "老蒲扇",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_112.png",
+        "discription": "战斗编队中每有一个职业不同的干员，所有干员的攻击力+10%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.1
+        }
+    },
+    "113": {
+        "No": "113",
+        "Name": "食腐者手杖",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_113.png",
+        "discription": "所有我方单位受到的治疗溢出时，周围敌人会受到相当于该次溢出治疗量的法术伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "114": {
+        "No": "114",
+        "Name": "Scout的狙击镜",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_114.png",
+        "discription": "所有敌方单位受到我方单位伤害时，距离伤害来源越远受到的伤害越高（最高100%）",
+        "price": "16",
+        "collection_type": "易伤",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Vul": 1
+        }
+    },
+    "115": {
+        "No": "115",
+        "Name": "黑色郁金香",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_115.png",
+        "discription": "所有我方干员技能未开启时60秒内攻击力逐渐提升至最高+60%，每次技能结束时失去该加成",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.6
+        }
+    },
+    "116": {
+        "No": "116",
+        "Name": "绿叶菜罐头",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_116.png",
+        "discription": "所有干员技能触发后1秒内攻击力+60%",
+        "price": "12",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.6
+        }
+    },
+    "117": {
+        "No": "117",
+        "Name": "叙拉古人的愤怒",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_117.png",
+        "discription": "所有干员技能触发后1秒内攻击力+100%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 1
+        }
+    },
+    "118": {
+        "No": "118",
+        "Name": "国王的新枪",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_118.png",
+        "discription": "目标生命为1时，所有我方单位的攻击速度+50",
+        "price": "12",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 50
+        }
+    },
+    "119": {
+        "No": "119",
+        "Name": "古堡的子嗣",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_119.png",
+        "discription": "所有干员在场上停留100秒后防御力+300，法术抗性+30",
+        "price": "16",
+        "collection_type": "加防 加法抗",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "DEF_Add": 300,
+            "Spell_RES_Add": 30
+        }
+    },
+    "120": {
+        "No": "120",
+        "Name": "国王的圆饼",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_120.png",
+        "discription": "目标生命为1时，所有干员的阻挡数+2",
+        "price": "12",
+        "collection_type": "加阻挡",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Block_Add": 2
+        }
+    },
+    "121": {
+        "No": "121",
+        "Name": "国王的枝条",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_121.png",
+        "discription": "目标生命为1时，所有干员每2秒额外回复1点技力",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+            "sp_Rec": 0.5
+        }
+    },
+    "122": {
+        "No": "122",
+        "Name": "诸王的冠冕",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_122.png",
+        "discription": "目标生命为1时，所有我方单位的攻击力+50%，集齐3件及以上国王收藏品后变为+150%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 1.5
+        }
+    },
+    "123": {
+        "No": "123",
+        "Name": "《光耀卡西米尔》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_123.png",
+        "discription": "干员触发闪避后6秒内攻击力+70%",
+        "price": "12",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.7
+        }
+    },
+    "124": {
+        "No": "124",
+        "Name": "《归来》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_124.png",
+        "discription": "干员触发闪避后6秒内攻击力+130%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 1.3
+        }
+    },
+    "125": {
+        "No": "125",
+        "Name": "“奉献”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_125.png",
+        "discription": "远程干员攻击或治疗时，对攻击范围内一名随机敌人造成150点法术伤害",
+        "price": "12",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "126": {
+        "No": "126",
+        "Name": "天穹尘埃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_126.png",
+        "discription": "远程干员在手动开启技能时，使攻击范围内的所有敌人浮空2秒",
+        "price": "16",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "127": {
+        "No": "127",
+        "Name": "冰结的躯壳",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_127.png",
+        "discription": "近战干员在受到伤害后5秒内，攻击速度+40",
+        "price": "12",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 40
+        }
+    },
+    "128": {
+        "No": "128",
+        "Name": "荆棘环",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_128.png",
+        "discription": "近战干员在受到治疗后，使自身和周围4格内的干员获得1点技力",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方单位",
+        "effect": {
+
+        }
+    },
+    "129": {
+        "No": "129",
+        "Name": "“永夜的窥视”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_129.png",
+        "discription": "所有干员的攻击力+25%，攻击速度+25，但每秒流失25生命值",
+        "price": "16",
+        "collection_type": "加攻 加攻速 流失生命值",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 25,
+            "ATK_Inc_Mult": 0.25,
+            "HP_Rec": -25
+        }
+    },
+    "130": {
+        "No": "130",
+        "Name": "“枯木的回声”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_130.png",
+        "discription": "所有干员每秒恢复50生命值，但最大生命-25%",
+        "price": "16",
+        "collection_type": "回复 减生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "HP_Rec": 50,
+            "Max_HP_Inc_Mult": -0.25
+        }
+    },
+    "131": {
+        "No": "131",
+        "Name": "凝冰砥石",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_131.png",
+        "discription": "战斗开始时，使随机一名干员生命值、攻击力、防御力、法术抗性、阻挡数、初始技力、部署费用翻倍",
+        "price": "16",
+        "collection_type": "加生命值 加攻 加防 加法抗 加阻挡 ",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Max_HP_Inc_Mult": 1,
+            "ATK_Inc_Mult": 1,
+            "DEF_Inc_Mult": 1,
+            "Spell_RES_Inc_Mult": 1,
+            "Block_Add": 1,
+            "sp_Inc_Mult": 1,
+            "Cost_Inc_Mult": 1
+        }
+    },
+    "132": {
+        "No": "132",
+        "Name": "远见者之示",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_132.png",
+        "discription": "所有干员部署费用和再部署时间随机变化",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "133": {
+        "No": "133",
+        "Name": "荆与叶的织带",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_133.png",
+        "discription": "每次战斗会随机1个可部署位置，该位置和周围8格内的我方单位具有迷彩",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "134": {
+        "No": "134",
+        "Name": "活木甲",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_134.png",
+        "discription": "所有我方近战单位部署时获得相当于最大生命50%的屏障",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "近战",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Mult_Shield": 0.5
+        }
+    },
+    "135": {
+        "No": "135",
+        "Name": "鳞皮壳盾",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_135.png",
+        "discription": "所有我方远程单位部署时获得3层护盾",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "远程",
+        "effective_object": "我方单位",
+        "effect": {
+
+        }
+    },
+    "136": {
+        "No": "136",
+        "Name": "霜牡的肩甲",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_.png",
+        "discription": "所有我方单位阻挡2名及以上敌人后，攻击力+40%，防御力+40%，持续30秒",
+        "price": "12",
+        "collection_type": "加攻 加防",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.4,
+            "DEF_Inc_Mult": 0.4
+        }
+    },
+    "137": {
+        "No": "137",
+        "Name": "雪牝的护手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_137.png",
+        "discription": "所有我方单位阻挡3名及以上敌人后，攻击速度+80，获得50%的物理和法术闪避，持续30秒",
+        "price": "16",
+        "collection_type": "加攻速 加物理闪避 加法术闪避",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 80,
+            "Phy_Miss": 0.5,
+            "Spell_Miss": 0.5
+        }
+    },
+    "138": {
+        "No": "138",
+        "Name": "空羽兽",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_138.png",
+        "discription": "【召唤物】生命值+30%，攻击力+30%，且在场时使它所属的干员攻击力+60%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "召唤物 所属干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.6
+        }
+    },
+    "139": {
+        "No": "139",
+        "Name": "岩角号",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_139.png",
+        "discription": "所有干员周围4格每有一名干员，攻击力+20%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.2
+        }
+    },
+    "140": {
+        "No": "140",
+        "Name": "不灭的火炬",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_140.png",
+        "discription": "所有干员周围4格每有一名干员，攻击速度+30",
+        "price": "12",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 30
+        }
+    },
+    "141": {
+        "No": "141",
+        "Name": "湖中神盾",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_141.png",
+        "discription": "护盾值+1；战斗开始时如果拥有护盾值，所有我方单位的最大生命+60%",
+        "price": "12",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "142": {
+        "No": "142",
+        "Name": "古老壁画",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_142.png",
+        "discription": "敌人进入和解除浮空、失重状态时，受到1000点法术伤害，并在10秒内失去特殊能力",
+        "price": "12",
+        "collection_type": "伤害 控制",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "143": {
+        "No": "143",
+        "Name": "万星园之辉",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_143.png",
+        "discription": "敌人进入和解除浮空、失重状态时，受到2000点法术伤害，并在10秒内受到的伤害+30%",
+        "price": "16",
+        "collection_type": "伤害 增伤",
+        "DMG_type": "法术 所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Vul": 0.3
+        }
+    },
+    "144": {
+        "No": "144",
+        "Name": "移云者图腾",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_144.png",
+        "discription": "所有敌方单位移动速度-15%，且失重时重量额外下降2个等级",
+        "price": "16",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_Movement_Speed_Inc_Mult": -0.15
+        }
+    },
+    "145": {
+        "No": "145",
+        "Name": "钝爪-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_145.png",
+        "discription": "所有【先锋】干员的部署费用-2，生命+60%",
+        "price": "8",
+        "collection_type": "辅助 加生命值",
+        "DMG_type": "——",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -2,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "146": {
+        "No": "146",
+        "Name": "钝爪-爆发",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_146.png",
+        "discription": "所有【先锋】干员的初始技力+15",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Add": 15
+        }
+    },
+    "147": {
+        "No": "147",
+        "Name": "钝爪-熟稔",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_147.png",
+        "discription": "所有【先锋】干员的技力消耗-35%",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Cost_Dec_Mult": 0.35
+        }
+    },
+    "148": {
+        "No": "148",
+        "Name": "钝爪-百战",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_148.png",
+        "discription": "所有【先锋】干员的攻击力+50%，防御力+50%",
+        "price": "16",
+        "collection_type": "加攻 加防",
+        "DMG_type": "所有",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.5,
+            "Def_Inc_Mult": 0.5
+        }
+    },
+    "149": {
+        "No": "149",
+        "Name": "折戟-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_149.png",
+        "discription": "所有【近卫】干员的部署费用-3，生命+40%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "近卫",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -3,
+            "Max_HP_Inc_Mult": 0.4
+        }
+    },
+    "150": {
+        "No": "150",
+        "Name": "折戟-锋刃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_150.png",
+        "discription": "所有【近卫】干员的攻击力+25%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "近卫",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.25
+        }
+    },
+    "151": {
+        "No": "151",
+        "Name": "折戟-浴血",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_151.png",
+        "discription": "所有【近卫】干员在攻击后获得2点技力",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "近卫",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "152": {
+        "No": "152",
+        "Name": "折戟-破釜沉舟",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_152.png",
+        "discription": "所有【近卫】干员的防御力-40%，但攻击力+40%，攻击速度+30",
+        "price": "16",
+        "collection_type": "加攻 加攻速 减防",
+        "DMG_type": "所有",
+        "job": "近卫",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.4,
+            "ATK_Speed_Add": 30,
+            "Def_Inc_Mult": -0.4
+        }
+    },
+    "153": {
+        "No": "153",
+        "Name": "铁卫-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_153.png",
+        "discription": "所有【重装】干员的部署费用-3，生命+40%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "重装",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -3,
+            "Max_HP_Inc_Mult": 0.4
+        }
+    },
+    "154": {
+        "No": "154",
+        "Name": "铁卫-侵掠",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_154.png",
+        "discription": "所有【重装】干员的攻击力+60%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "重装",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.6
+        }
+    },
+    "155": {
+        "No": "155",
+        "Name": "铁卫-无锋",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_155.png",
+        "discription": "所有【重装】干员在受到攻击后获得2点技力",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "重装",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "156": {
+        "No": "156",
+        "Name": "铁卫-整固",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_156.png",
+        "discription": "所有【重装】干员生命值+40%，防御力+40%，法术抗性+20",
+        "price": "12",
+        "collection_type": "加生命值 加防 加法抗",
+        "DMG_type": "——",
+        "job": "重装",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "Max_HP_Inc_Mult": 0.4,
+            "Def_Inc_Mult": 0.4,
+            "Spell_RES_Add": 20
+        }
+    },
+    "157": {
+        "No": "157",
+        "Name": "残弩-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_157.png",
+        "discription": "所有【狙击】干员的部署费用-2，生命+60%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "狙击",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -2,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "158": {
+        "No": "158",
+        "Name": "残弩-百步穿杨",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_158.png",
+        "discription": "所有【狙击】干员的攻击力+20%",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "狙击",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.2
+        }
+    },
+    "159": {
+        "No": "159",
+        "Name": "残弩-交叉火力",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_159.png",
+        "discription": "所有【狙击】干员的生命-40%，但攻击力+40%",
+        "price": "12",
+        "collection_type": "加攻 减生命值",
+        "DMG_type": "所有",
+        "job": "狙击",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.4,
+            "Max_HP_Inc_Mult": -0.4
+        }
+    },
+    "160": {
+        "No": "160",
+        "Name": "残弩-神速",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_160.png",
+        "discription": "所有【狙击】干员的攻击速度+70",
+        "price": "16",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "狙击",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 70
+        }
+    },
+    "161": {
+        "No": "161",
+        "Name": "断杖-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_161.png",
+        "discription": "所有【术师】干员的部署费用-3，生命+60%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -3,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "162": {
+        "No": "162",
+        "Name": "断杖-织法者",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_162.png",
+        "discription": "所有【术师】干员的攻击力+25%，攻击速度+25",
+        "price": "8",
+        "collection_type": "加攻 加攻速",
+        "DMG_type": "所有",
+        "job": "术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.25,
+            "ATK_Speed_Add": 25
+        }
+    },
+    "163": {
+        "No": "163",
+        "Name": "断杖-凝神",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_163.png",
+        "discription": "所有【术师】干员的技力恢复+0.4/秒",
+        "price": "12",
+        "collection_type": "",
+        "DMG_type": "——",
+        "job": "术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Rec": 0.4
+        }
+    },
+    "164": {
+        "No": "164",
+        "Name": "断杖-苦难巫咒",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_164.png",
+        "discription": "所有【术师】干员生命-40%，但造成的法术伤害+70%",
+        "price": "16",
+        "collection_type": "法术增伤 减生命值",
+        "DMG_type": "所有",
+        "job": "术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "Spell_Dmg_Inc": 0.7,
+            "Max_HP_Inc_Mult": -0.4
+        }
+    },
+    "165": {
+        "No": "165",
+        "Name": "支柱-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_165.png",
+        "discription": "所有【辅助】干员的部署费用-2，生命+60%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "辅助",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -2,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "166": {
+        "No": "166",
+        "Name": "支柱-勤奋",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_166.png",
+        "discription": "所有【辅助】干员的技力消耗-40%",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "辅助",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Cost_Dec_Mult": 0.4
+        }
+    },
+    "167": {
+        "No": "167",
+        "Name": "支柱-援护",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_167.png",
+        "discription": "所有【辅助】干员使攻击范围内的我方单位攻击力+20%",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.2
+        }
+    },
+    "168": {
+        "No": "168",
+        "Name": "支柱-枯法",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_168.png",
+        "discription": "所有【辅助】干员攻击范围内的敌方单位防御力-20%，法术抗性-20%",
+        "price": "12",
+        "collection_type": "减防 减法抗",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Prec_Dec_DEF": 0.2,
+            "Prec_Dec_Spell_RES": 0.2
+        }
+    },
+    "169": {
+        "No": "169",
+        "Name": "医者-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_169.png",
+        "discription": "所有【医疗】干员的部署费用-2，生命+60%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -2,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "170": {
+        "No": "170",
+        "Name": "医者-自医",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_170.png",
+        "discription": "所有【医疗】干员的技力恢复+0.3/秒",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Rec": 0.3
+        }
+    },
+    "171": {
+        "No": "171",
+        "Name": "医者-妙手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_171.png",
+        "discription": "所有【医疗】干员的攻击速度+50",
+        "price": "12",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 50
+        }
+    },
+    "172": {
+        "No": "172",
+        "Name": "医者-固化序列",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_172.png",
+        "discription": "所有【医疗】干员攻击范围内的我方单位获得抵抗",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "173": {
+        "No": "173",
+        "Name": "锈刃-突破",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_173.png",
+        "discription": "所有【特种】干员的部署费用-2，生命+60%",
+        "price": "8",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "特种",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -2,
+            "Max_HP_Inc_Mult": 0.6
+        }
+    },
+    "174": {
+        "No": "174",
+        "Name": "锈刃-研磨",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_174.png",
+        "discription": "所有【特种】干员的攻击速度+30",
+        "price": "8",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "特种",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 30
+        }
+    },
+    "175": {
+        "No": "175",
+        "Name": "锈刃-可视静谧",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_175.png",
+        "discription": "所有【特种】干员的再部署时间-35%",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "特种",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Red_Time_Dec_Mult": 0.35
+        }
+    },
+    "176": {
+        "No": "176",
+        "Name": "锈刃-锋芒发硎",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_176.png",
+        "discription": "所有【特种】干员的攻击力+40%，力度+2",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "特种",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Add": 40,
+            "Force_Add": 2
+        }
+    },
+    "177": {
+        "No": "177",
+        "Name": "扣挠之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_177.png",
+        "discription": "【凝滞师】、【削弱者】和【护佑者】攻击时额外造成目标当前生命值3%的法术伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "辅助",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "178": {
+        "No": "178",
+        "Name": "炸裂之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_178.png",
+        "discription": "【要塞】、【链术师】和【轰击术师】每对一个单位造成伤害就回复2点技力值",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "重装 术士",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "179": {
+        "No": "179",
+        "Name": "极速之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_179.png",
+        "discription": "【处决者】、【伏击客】和【傀儡师】相邻四格内没有我方单位时，攻击速度+120",
+        "price": "16",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "特种",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Speed_Add": 120
+        }
+    },
+    "180": {
+        "No": "180",
+        "Name": "净尘之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_180.png",
+        "discription": "【吟游者】【阵法术师】【疗养师】对攻击范围内敌人每秒造成50%攻击力的法术伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "辅助 术士 医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "181": {
+        "No": "181",
+        "Name": "碎靶之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_181.png",
+        "discription": "【炮手】【扩散术师】【投掷手】每对一个单位造成伤害就使自身攻击力+15%，最高+150%，5秒未造成伤害则使加成清空",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "狙击 术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 1.5
+        }
+    },
+    "182": {
+        "No": "182",
+        "Name": "永流之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_182.png",
+        "discription": "【中坚术师】【秘术师】【召唤师】每使用过一次技能，自身的技力自然回复速度+0.5/秒，最多叠加4层",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "术士",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "sp_Rec": 2
+        }
+    },
+    "183": {
+        "No": "183",
+        "Name": "缠斗之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_183.png",
+        "discription": "【铁卫】、【驭法铁卫】和【决战者】每2秒束缚自身附近所有敌人1秒，并造成相当于攻击力100%的真实伤害",
+        "price": "16",
+        "collection_type": "控制 伤害",
+        "DMG_type": "真实",
+        "job": "重装 近卫",
+        "position": "近战",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "184": {
+        "No": "184",
+        "Name": "应机之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_184.png",
+        "discription": "【冲锋手】、【尖兵】和【战术家】的部署费用-10，且击杀敌人后使所有未部署干员下次部署费用-1",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Cost_Add": -10
+        }
+    },
+    "185": {
+        "No": "185",
+        "Name": "溃决之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_185.png",
+        "discription": "【重射手】、【神射手】和【攻城手】的攻击伤害随目标生命下降而提升最高50%，并对生命20%以下的敌人强制击杀",
+        "price": "16",
+        "collection_type": "增伤",
+        "DMG_type": "所有",
+        "job": "狙击",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+            "Dmg_Inc": 0.5
+        }
+    },
+    "186": {
+        "No": "186",
+        "Name": "浓缩抑制剂",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_186.png",
+        "discription": "所有干员攻击【感染生物】时攻击力提升至150%并使其失去特殊能力3秒",
+        "price": "16",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "感染生物",
+        "effect": {
+            "ATK_Mult": 1.5
+        }
+    },
+    "187": {
+        "No": "187",
+        "Name": "古旧铸物",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_187.png",
+        "discription": "立即进阶三个干员（不消耗希望）",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "188": {
+        "No": "188",
+        "Name": "一份演讲稿",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_188.png",
+        "discription": "招募所有干员的希望消耗-2",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "189": {
+        "No": "189",
+        "Name": "锈蚀的铁锤",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_189.png",
+        "discription": "商店中购买道具所需源石锭-50%",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "190": {
+        "No": "190",
+        "Name": "四叶草化石",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_190.png",
+        "discription": "我方在得偿所愿节点和战斗后掉落战利品时，增加一个可选项",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "191": {
+        "No": "191",
+        "Name": "阿卡胡拉饭碗",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_191.png",
+        "discription": "回复4目标生命，护盾值+2",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "192": {
+        "No": "192",
+        "Name": "立体艺术装置",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_192.png",
+        "discription": "回复7目标生命，每次战斗结束后额外回复1目标生命",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "193": {
+        "No": "193",
+        "Name": "御2",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_193.png",
+        "discription": "护盾值+5",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "194": {
+        "No": "194",
+        "Name": "金酒之杯",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_194.png",
+        "discription": "每有5源石锭，所有我方单位的攻击速度+7",
+        "price": "16",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 7
+        }
+    },
+    "195": {
+        "No": "195",
+        "Name": "“国王的护戒”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_195.png",
+        "discription": "护盾值+2，将目标生命全部转化为等量护盾值（目标生命不会低于1）",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "196": {
+        "No": "196",
+        "Name": "骑士长枪专业版",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_196.png",
+        "discription": "战场的宝箱会掉落更多的源石锭",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "197": {
+        "No": "197",
+        "Name": "全自动维修台",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_197.png",
+        "discription": "抗干扰指数+2，但是坍缩值+2",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "198": {
+        "No": "198",
+        "Name": "警戒篱木",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_198.png",
+        "discription": "坍缩值-2，目标生命上限+2",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "199": {
+        "No": "199",
+        "Name": "《重型音乐选集》",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_199.png",
+        "discription": "坍缩值-2，希望+2",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "200": {
+        "No": "200",
+        "Name": "流浪术师的怀乡",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_200.png",
+        "discription": "进入深埋迷境时，坍缩值-3",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "201": {
+        "No": "201",
+        "Name": "仪式铃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_201.png",
+        "discription": "失去抗干扰指数时，回复1目标生命",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "202": {
+        "No": "202",
+        "Name": "北方拓荒者拐杖",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_202.png",
+        "discription": "抗干扰指数不低于4时，每进入一个非战斗节点，获得源石锭+2",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "203": {
+        "No": "203",
+        "Name": "猎人的洞察",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_203.png",
+        "discription": "所有干员攻击【坍缩体】时无视50%的防御力和法术抗性，并使其停顿0.5秒",
+        "price": "16",
+        "collection_type": "减防 减法抗",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "坍缩体",
+        "effect": {
+            "Ign_Mul_DEF": 0.5,
+            "Ign_Mul_Spell_RES": 0.5
+        }
+    },
+    "204": {
+        "No": "204",
+        "Name": "雪与土的织带",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_204.png",
+        "discription": "每次战斗会随机1个可部署位置，该位置和周围8格的我方干员攻击和受击回复技力时，使范围内另一名干员同时回复",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "205": {
+        "No": "205",
+        "Name": "古地树实",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_205.png",
+        "discription": "立即获得三件随机的小玩意",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "206": {
+        "No": "206",
+        "Name": "极地改型包",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_206.png",
+        "discription": "支援道具使用时会在周围4格同时使用",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "207": {
+        "No": "207",
+        "Name": "圆石祭坛可计数叠加层数",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_207.png",
+        "discription": "战斗后有概率使所有我方单位的攻击力和防御力永久+5%（最多叠加10层）",
+        "price": "8",
+        "collection_type": "加攻 加防",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.05,
+            "Def_Inc_Mult": 0.05
+        }
+    },
+    "208": {
+        "No": "208",
+        "Name": "彩虹瓮",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_208.png",
+        "discription": "每次敌人进入保护目标点时，立即使随机一名再部署中的单位当前再部署时间减半",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "209": {
+        "No": "209",
+        "Name": "芽棍",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_209.png",
+        "discription": "每次进入树篱之途或失与得节点，护盾值+2",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "210": {
+        "No": "210",
+        "Name": "坎诺特印记",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_210.png",
+        "discription": "每次在诡意行商购买一件道具，或在失与得交换一次，希望+1",
+        "price": "8",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "211": {
+        "No": "211",
+        "Name": "指路藤偶",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_211.png",
+        "discription": "通过纵向通路时有概率不降低抗干扰指数",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "212": {
+        "No": "212",
+        "Name": "乌萨斯断刃",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_212.png",
+        "discription": "每有1级坍缩范式，战斗获得的指挥经验+10%",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "213": {
+        "No": "213",
+        "Name": "伶牙，毁林者",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_213.png",
+        "discription": "战斗有概率额外掉落1个密文板",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "214": {
+        "No": "214",
+        "Name": "支援补给站",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_214.png",
+        "discription": "每次战斗中携带1个便携式补给站",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "215": {
+        "No": "215",
+        "Name": "支援地雷组",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_215.png",
+        "discription": "每次战斗中携带3个干扰地雷",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "216": {
+        "No": "216",
+        "Name": "支援轰隆隆",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_.png",
+        "discription": "每次战斗中携带2个轰隆隆先生",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "217": {
+        "No": "217",
+        "Name": "支援起重机",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_217.png",
+        "discription": "每次战斗中携带2个雪雉的安全起重机",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "218": {
+        "No": "218",
+        "Name": "支援防暴桩",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_218.png",
+        "discription": "每次战斗中携带2个防暴桩",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "219": {
+        "No": "219",
+        "Name": "支援雾机",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_219.png",
+        "discription": "每次战斗中携带1个失修舞台雾机",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "220": {
+        "No": "220",
+        "Name": "祭坛式雷达",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_220.png",
+        "discription": "每次战斗中携带1个祭坛式雷达（定期扫描周围敌人）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "221": {
+        "No": "221",
+        "Name": "R-45便携式“留声机”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_221.png",
+        "discription": "每次战斗中携带1个R-45便携式“留声机”（激活后攻击并调查敌人）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "222": {
+        "No": "222",
+        "Name": "景观巨蕈",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_222.png",
+        "discription": "每次战斗中携带2个景观巨蕈（周围4格我方单位调查能力增强）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "223": {
+        "No": "223",
+        "Name": "战场装置LUD-99X",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_223.png",
+        "discription": "每次战斗会出现战场装置LUD-99X（对阻挡最高的我方单位附近触发随机正面或负面调查效果）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "224": {
+        "No": "224",
+        "Name": "“二踢脚”型数据收集装置",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_224.png",
+        "discription": "每次战斗中携带5个“二踢脚”型数据收集装置（部署后立即调查敌人）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "225": {
+        "No": "225",
+        "Name": "勘察用自走车",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_225.png",
+        "discription": "每次战斗中携带1个勘察用自走车出发点（发出自走车调查敌人）",
+        "price": "——",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "226": {
+        "No": "226",
+        "Name": "树痕之盔",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_226.png",
+        "discription": "希望+3，让探索开启不同的方向",
+        "price": "——",
+        "collection_type": "资源 结局",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "227": {
+        "No": "227",
+        "Name": "无垠赠礼",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_227.png",
+        "discription": "坍缩值+3，让探索开启不同的方向",
+        "price": "——",
+        "collection_type": "资源 结局",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "228": {
+        "No": "228",
+        "Name": "路网",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_228.png",
+        "discription": "战斗出现额外敌人，让探索开启不同的方向",
+        "price": "——",
+        "collection_type": "结局",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "229": {
+        "No": "229",
+        "Name": "“岁怒”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_229.png",
+        "discription": "每次部署我方单位时，对场上随机一个敌人及其周围造成3000点法术伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "法术",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "230": {
+        "No": "230",
+        "Name": "“文明的存续”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_230.png",
+        "discription": "所有敌方单位受到的真实伤害+150%",
+        "price": "16",
+        "collection_type": "真实增伤",
+        "DMG_type": "真实",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "敌方单位",
+        "effect": {
+            "True_Dmg_Vul": 1.5
+        }
+    },
+    "231": {
+        "No": "231",
+        "Name": "“时光之末”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_231.png",
+        "discription": "仅一次，在非区域最终战斗和领袖战中失败时不结束探索，目标生命+1并继续下一步行动",
+        "price": "12",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "232": {
+        "No": "232",
+        "Name": "“小格兰法洛”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_232.png",
+        "discription": "每次敌人进入保护目标点时，立刻对全场所有敌人造成5秒晕眩",
+        "price": "12",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "233": {
+        "No": "233",
+        "Name": "“碎片大厦的回忆”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_233.png",
+        "discription": "每次敌人进入保护目标点时，立刻对全场所有敌人造成3000点真实伤害",
+        "price": "16",
+        "collection_type": "伤害",
+        "DMG_type": "真实",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "234": {
+        "No": "234",
+        "Name": "“盲目”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_234.png",
+        "discription": "抗干扰指数为0-1时，水平或垂直移动随机获得护盾值、源石锭、希望、抗干扰指数或密文板",
+        "price": "16",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "235": {
+        "No": "235",
+        "Name": "琥珀伤痕",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_235.png",
+        "discription": "抗干扰指数可以超出上限，且每超出1点使所有我方单位的生命值+8%，攻击力+8%",
+        "price": "16",
+        "collection_type": "加生命值 加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.08,
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "236": {
+        "No": "236",
+        "Name": "安玛的爱",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_236.png",
+        "discription": "所有我方单位的生命、攻击力、防御力+1%；有时会发挥奇妙的效果",
+        "price": "16",
+        "collection_type": "加生命值 加攻 加防",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.01,
+            "ATK_Inc_Mult": 0.01,
+            "DEF_Inc_Mult": 0.01
+        }
+    },
+    "237": {
+        "No": "237",
+        "Name": "视界邀约",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_237.png",
+        "discription": "让探索开启不同的方向",
+        "price": "1",
+        "collection_type": "结局",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "238": {
+        "No": "238",
+        "Name": "维度流质",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_238.png",
+        "discription": "让探索开启不同的方向",
+        "price": "——",
+        "collection_type": "结局",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "239": {
+        "No": "239",
+        "Name": "坍缩之种",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_239.png",
+        "discription": "所有我方单位的攻击力和生命值-15%",
+        "price": "——",
+        "collection_type": "减攻 减生命值",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": -0.15,
+            "HP_Inc_Mult": -0.15
+        }
+    },
+    "240": {
+        "No": "240",
+        "Name": "空间碎片",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_240.png",
+        "discription": "可携带干员-4",
+        "price": "——",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "241": {
+        "No": "241",
+        "Name": "深度灼痕",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_241.png",
+        "discription": "目标生命上限-12",
+        "price": "——",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "242": {
+        "No": "242",
+        "Name": "“国王的水晶”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_242.png",
+        "discription": "战斗结束后使目标生命-2（目标生命不会低于1），希望+1，源石锭+5",
+        "price": "12",
+        "collection_type": "资源",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "243": {
+        "No": "243",
+        "Name": "“绽放”",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_243.png",
+        "discription": "所有干员每次受到伤害时回复1点技力，每次受到元素损伤时回复1点技力",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "244": {
+        "No": "244",
+        "Name": "散轶诗简",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_244.png",
+        "discription": "【召唤物】不再消耗部署位",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "245": {
+        "No": "245",
+        "Name": "坚实之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_245.png",
+        "discription": "【工匠】、【行商】和【怪杰】在场上停留30秒后，获得3点临时目标生命值（每名干员同一作战最多触发1次）",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "辅助 特种",
+        "position": "所有",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "246": {
+        "No": "246",
+        "Name": "复还之手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_246.png",
+        "discription": "【群愈师】、【链愈师】和【行医】攻击范围内干员受到致命伤时，回复所有生命（每名干员同一作战最多触发1次）",
+        "price": "16",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "医疗",
+        "position": "远程",
+        "effective_object": "我方干员",
+        "effect": {
+
+        }
+    },
+    "247": {
+        "No": "247",
+        "Name": "钝爪-拾柴",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_247.png",
+        "discription": "场上每有一名先锋干员，每3秒获得1点部署费用（最多叠加8次）",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "先锋",
+        "position": "所有",
+        "effective_object": "——",
+        "effect": {
+
+        }
+    },
+    "248": {
+        "No": "248",
+        "Name": "折戟-战吼",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_248.png",
+        "discription": "场上每有一名近卫干员，所有我方单位的攻击力+8%（最多叠加8次）",
+        "price": "8",
+        "collection_type": "加攻",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Inc_Mult": 0.08
+        }
+    },
+    "249": {
+        "No": "249",
+        "Name": "铁卫-垒沙",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_249.png",
+        "discription": "场上每有一名重装干员，所有我方单位受到的物理伤害-10%（最多叠加8次）",
+        "price": "8",
+        "collection_type": "物理减伤",
+        "DMG_type": "物理",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Phy_Dmg_Red": 0.1
+        }
+    },
+    "250": {
+        "No": "250",
+        "Name": "残弩-连珠",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_250.png",
+        "discription": "场上每有一名狙击干员，所有我方单位的攻击速度+12（最多叠加8次）",
+        "price": "8",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 12
+        }
+    },
+    "251": {
+        "No": "251",
+        "Name": "断杖-和声",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_251.png",
+        "discription": "场上每有一名术师干员，所有敌人受到的法术伤害+12%（最多叠加8次）",
+        "price": "8",
+        "collection_type": "法术增伤",
+        "DMG_type": "法术",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Spell_Vul": 0.12
+        }
+    },
+    "252": {
+        "No": "252",
+        "Name": "支柱-联手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_252.png",
+        "discription": "场上每有一名辅助干员，所有自然回复技能的技力恢复+0.2/秒（最多叠加8次）",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "sp_Rec": 0.2
+        }
+    },
+    "253": {
+        "No": "253",
+        "Name": "医者-涌泉",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_253.png",
+        "discription": "场上每有一名医疗干员，所有我方单位的再部署时间-5%（最多叠加8次）",
+        "price": "8",
+        "collection_type": "辅助",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "Red_Time_Dec_Mult": 0.05
+        }
+    },
+    "254": {
+        "No": "254",
+        "Name": "锈刃-扰袭",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_254.png",
+        "discription": "场上每有一名特种干员，所有敌方单位的移动速度-5%（最多叠加8次）",
+        "price": "8",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_Movement_Speed_Inc_Mult": 0.05
+        }
+    },
+    "255": {
+        "No": "255",
+        "Name": "掌上楼阁",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_255.png",
+        "discription": "所有干员的阻挡数+1，在场上停留60秒后阻挡数额外+1",
+        "price": "16",
+        "collection_type": "加阻挡",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "Block_Add": 1
+        }
+    },
+    "256": {
+        "No": "256",
+        "Name": "米诺斯颂诗",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_256.png",
+        "discription": "每通过一场紧急作战，所有我方单位的生命值永久+3%（最多叠加15层）",
+        "price": "12",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "HP_Inc_Mult": 0.03
+        }
+    },
+    "257": {
+        "No": "257",
+        "Name": "Friston.P",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_257.png",
+        "discription": "每通过一场紧急作战，所有我方单位的攻击速度永久+5（最多叠加15层）",
+        "price": "16",
+        "collection_type": "加攻速",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方单位",
+        "effect": {
+            "ATK_Speed_Add": 5
+        }
+    },
+    "258": {
+        "No": "258",
+        "Name": "藤蔓炮手",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_258.png",
+        "discription": "敌方空中单位被击杀后，对周围其他敌人造成3000点物理伤害",
+        "price": "12",
+        "collection_type": "伤害",
+        "DMG_type": "物理",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+
+        }
+    },
+    "259": {
+        "No": "259",
+        "Name": "北风的造物",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_259.png",
+        "discription": "【机械】和【法术造物】敌人首次攻击时，立即冻结15秒",
+        "price": "16",
+        "collection_type": "控制",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "机械 法术造物",
+        "effect": {
+
+        }
+    },
+    "260": {
+        "No": "260",
+        "Name": "破落盟约",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_260.png",
+        "discription": "所有干员受到来自【萨卡兹】和【宿主】敌人的伤害减少50%",
+        "price": "16",
+        "collection_type": "减伤",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "",
+        "effective_object": "萨卡兹 宿主",
+        "effect": {
+
+        }
+    },
+    "261": {
+        "No": "261",
+        "Name": "范式中和仪",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_261.png",
+        "discription": "处于【国度】中的敌方单位攻击速度-30",
+        "price": "12",
+        "collection_type": "减攻速",
+        "DMG_type": "——",
+        "job": "——",
+        "position": "——",
+        "effective_object": "敌方单位",
+        "effect": {
+            "Emy_Attack_Speed_Add": -30
+        }
+    },
+    "262": {
+        "No": "262",
+        "Name": "探索者背包",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_262.png",
+        "discription": "所有干员从异常状态恢复后，攻击力+60%并获得抵抗，持续15秒",
+        "price": "12",
+        "collection_type": "加攻 控制",
+        "DMG_type": "所有",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "ATK_Inc_Mult": 0.6
+        }
+    },
+    "263": {
+        "No": "263",
+        "Name": "黑洞协议",
+        "img_path": "F:/大三下/Arknights伤害计算器/object/icon/collections/收藏品_探索者的银凇止境_263.png",
+        "discription": "部署费用达到上限时，所有干员的生命值+150%",
+        "price": "12",
+        "collection_type": "加生命值",
+        "DMG_type": "——",
+        "job": "所有",
+        "position": "所有",
+        "effective_object": "我方干员",
+        "effect": {
+            "HP_Inc_Mult": 1.5
+        }
+    }
+}

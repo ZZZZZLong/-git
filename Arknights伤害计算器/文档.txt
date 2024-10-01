@@ -1,0 +1,305 @@
+
+
+## Arknights伤害计算器1.0
+
+### ---字段&含义---
+
+#### 干员属性
+
+|            |            中文            |                           文案描述                           |   乘区   |      英文缩写      |
+| :--------: | :------------------------: | :----------------------------------------------------------: | :------: | :----------------: |
+|   生命值   |                            |                                                              |          |                    |
+|            |       干员基础生命值       |          面板<font color="green">**生命值**</font>           |    ——    |         HP         |
+|            |         生命值增加         |        干员的<font color="green">**生命值**</font>+x         | 直接加算 |       HP_Add       |
+|            |       生命值增加倍率       |        干员的<font color="green">**生命值**</font>+x%        | 直接乘算 |    HP_Inc_Mult     |
+|            |         生命值回复         |        每秒恢复<font color="green">**生命值**</font>x        | 直接加算 |       HP_Rec       |
+|            |       最大生命值提升       |         最大<font color="green">**生命值**</font>+x%         | 最终加算 |  Max_HP_Inc_Mult   |
+|            |            屏障            |                                                              |          |       Shield       |
+|            |      生命值百分比屏障      |       最大<font color="green">**生命值**</font>x%屏障        |          |   HP_Mult_Shield   |
+|            |      攻击力百分比屏障      |                       吸收攻击力x%屏障                       |          |  ATK_Mult_Shield   |
+|    攻击    |                            |                                                              |          |                    |
+|            | 干员基础攻击力（显示面板） |                         面板攻击力x                          |    ——    |        ATK         |
+|            |   攻击力修正（显示面板）   |                        攻击力提高至x%                        |    ——    |      ATK_Mod       |
+|            |   攻击力增加（显示面板）   |                           攻击力+x                           | 直接加算 |      ATK_Add       |
+|            | 攻击力增加倍率（显示面板） |                    攻击力±x%（多个累加）                     | 直接乘算 |    ATK_Inc_Mult    |
+|            | 最终加算攻击力（显示面板） |                 鼓舞效果攻击力+x（唯一生效）                 | 最终加算 |    Fin_ATK_Add     |
+|            |  攻击力增幅（不显示面板）  |                  攻击力提升至x%（多个累乘）                  | 最终乘算 |      ATK_Mult      |
+|            |        技能伤害倍率        |                    造成相当于攻击力x%伤害                    | 最终乘算 |   Skill_Dmg_Mult   |
+|    减防    |                            |                                                              |          |                    |
+|            |          固定减防          |                       无视敌人x防御力                        | 直接加算 |      Dec_DEF       |
+|            |         百分比减防         |                  敌方防御力-x%（多个累乘）                   | 直接乘算 |    Prec_Dec_DEF    |
+|            |         无视防御力         |                       无视敌人x防御力                        | 最终加算 |      Ign_DEF       |
+|            |      无视百分比防御力      |                       无视敌人x%防御力                       | 最终乘算 |    Ign_Mul_DEF     |
+|   减法抗   |                            |                                                              |          |                    |
+|            |         固定减法抗         |                          法术抗性-x                          | 直接加算 |   Dec_Spell_RES    |
+|            |        百分比减法抗        |                   法术抗性-x%（多个累乘）                    | 直接乘算 | Prec_Dec_Spell_RES |
+|            |          无视法抗          |                    无视攻击目标x法术抗性                     | 最终加算 |   Ign_Spell_RES    |
+|            |      无视百分比防御力      |                      无视敌人x%法术抗性                      | 最终乘算 | Ign_Mul_Spell_RES  |
+|    增伤    |                            |                                                              |          |                    |
+|            |            增伤            |                       造成的伤害提升x%                       | 最终乘算 |      Dmg_Inc       |
+|            |          物理增伤          |      造成的<font color="blue">**物理**</font>伤害提升x%      | 最终乘算 |    Phy_Dmg_Inc     |
+|            |          法术增伤          |     造成的<font color="purple">**法术**</font>伤害提升x%     | 最终乘算 |   Spell_Dmg_Inc    |
+|            |          真实增伤          |    敌方受到的<font color="red">**真实**</font>伤害提升x%     | 最终乘算 |    True_Dmg_Inc    |
+|    易伤    |                            |                                                              |          |                    |
+|            |     脆弱（同名取最高）     | 敌方受到的<font color="blue">**物理**</font>/<font color="purple">**法术**</font>/<font color="red">**真实**</font>伤害提升x% | 最终乘算 |      Weakness      |
+|            |   法术脆弱（同名取最高）   |   敌方受到的<font color="purple">**法术**</font>伤害提升x%   | 最终乘算 |   Spell_Weakness   |
+|            |            易伤            | 敌方受到的<font color="blue">**物理**</font>/<font color="purple">**法术**</font>/<font color="red">**真实**</font>伤害提升x% | 最终乘算 |        Vul         |
+|            |          物理易伤          |    敌方受到的<font color="blue">**物理**</font>伤害提升x%    | 最终乘算 |      Phy_Vul       |
+|            |          法术易伤          |   敌方受到的<font color="purple">**法术**</font>伤害提升x%   | 最终乘算 |     Spell_Vul      |
+|            |          真实易伤          |    敌方受到的<font color="red">**真实**</font>伤害提升x%     | 最终乘算 |    True_Dmg_Vul    |
+|    防御    |                            |                                                              |          |                    |
+|            |        防御力[0,∞]         |                         面板防御力x                          |    ——    |        DEF         |
+|            |         防御力增加         |                           防御力±x                           | 直接加算 |      DEF_Add       |
+|            |       防御力增加倍率       |                    防御力±x%（多个累乘）                     | 直接乘算 |    DEF_Inc_Mult    |
+|    法抗    |                            |                                                              |          |                    |
+|            |          法术抗性          |                        面板法术抗性x                         |    ——    |     Spell_RES      |
+|            |        法术抗性增加        |                          法术抗性±x                          | 直接加算 |   Spell_RES_Add    |
+|            |      法术抗性增加倍率      |                   法术抗性±x%（多个累乘）                    | 直接乘算 | Spell_RES_Inc_Mult |
+|    减伤    |                            |                                                              |          |                    |
+|            |            庇护            | 受到的<font color="blue">**物理**</font>/<font color="purple">**法术**</font>伤害-x% |          |      Protect       |
+|            |            减伤            | 受到的<font color="blue">**物理**</font>/<font color="purple">**法术**</font>伤害-x% |          |      Dmg_Red       |
+|            |          物理减伤          |       受到的<font color="blue">**物理**</font>伤害-x%        |          |    Phy_Dmg_Red     |
+|            |          法术减伤          |      受到的<font color="purple">**法术**</font>伤害-x%       |          |   Spell_Dmg_Red    |
+| 再部署时间 |                            |                                                              |          |                    |
+|            |         再部署时间         |                      面板再部署时间x秒                       |    ——    |      Red_Time      |
+|            |       再部署时间减少       |                      再部署时间减少±x秒                      | 直接加算 |    Red_Time_Dec    |
+|            |     再部署时间减少倍率     |                      再部署时间减少±x%                       | 直接乘算 | Red_Time_Dec_Mult  |
+|  部署费用  |                            |                                                              |          |                    |
+|            |          部署费用          |                              x                               |    ——    |        Cost        |
+|            |        部署费用增加        |                              +x                              | 最终加算 |      Cost_Add      |
+|            |      部署费用增加倍率      |                              x%                              | 直接乘算 |   Cost_Inc_Mult    |
+|    阻挡    |                            |                                                              |          |                    |
+|            |           阻挡数           |                              x                               |    ——    |       Block        |
+|            |         阻挡数增加         |                         面板阻挡数+x                         | 最终加算 |     Block_Add      |
+|    攻速    |                            |                                                              |          |                    |
+|            |        基础攻击间隔        |                         攻击间隔x秒                          |    ——    |   Base_ATK_Time    |
+|            |        基础攻击速度        |                          攻击速度x                           |    ——    |   Base_ATK_Speed   |
+|            |        攻击间隔缩短        |                    攻击间隔小/大幅度缩短                     |          |                    |
+|            |        攻击速度增加        |                          攻击速度+x                          | 直接加算 |   ATK_Speed_Add    |
+|  生命回复  |                            |                                                              |          |                    |
+|            |        治疗效果提升        |                         治疗效果+x%                          |          |   Helling_Effect   |
+|            |      生命回复效果提升      |                       生命回复效果+x%                        |          |  HP_Regen_Effect   |
+|            |       最大生命值回复       |                     每秒回复最大生命值x%                     |          |    Max_HP_Regen    |
+|    技力    |                            |                                                              |          |                    |
+|            |          初始技力          |                        面板初始技力x                         |    ——    |         sp         |
+|            |        初始技力增加        |                          初始技力+x                          | 最终加算 |       sp_Add       |
+|            |      初始技力增加倍率      |                         初始技力+x%                          | 直接加算 |    sp_Inc_Mult     |
+|            |        技力回复提升        |                        技力恢复+x/秒                         | 直接加算 |       sp_Rec       |
+|            |        技力消耗降低        |                         技力消耗-x%                          | 直接加算 |  sp_Cost_Dec_Mult  |
+|    闪避    |                            |                                                              |          |                    |
+|            |          物理闪避          |                        获得x%物理闪避                        |          |      Phy_Miss      |
+|            |          法术闪避          |                        获得x%法术闪避                        |          |     Spell_Miss     |
+|    控制    |                            |                                                              |          |                    |
+|            |      异常效果影响时间      |                    异常效果影响时间提高x%                    | 最终加算 |    Control_Time    |
+|    力度    |                            |                                                              |          |                    |
+|            |          基础力度          |                            力度x                             |    ——    |       Force        |
+|            |          力度增加          |                            力度+x                            | 最终加算 |     Force_Add      |
+|            |                            |                                                              |          |                    |
+|            |                            |                                                              |          |                    |
+|            |                            |                                                              |          |                    |
+
+#### 敌方属性
+
+|          |         中文         |                           文案描述                           |   乘区   |          英文缩写           |
+| :------: | :------------------: | :----------------------------------------------------------: | :------: | :-------------------------: |
+|  生命值  |                      |                                                              |          |                             |
+|          |    敌方基础生命值    |          敌方<font color="green">**生命值**</font>x          |    ——    |           Emy_HP            |
+|          |    敌方生命值增加    |         敌方<font color="green">**生命值**</font>+x          | 直接加算 |         Emy_HP_Add          |
+|          |  敌方生命值增加倍率  |         敌方<font color="green">**生命值**</font>+x%         | 直接乘算 |       Emy_HP_Inc_Mult       |
+|  防御力  |                      |                                                              |          |                             |
+|          | 敌方基础防御力[0,∞]  |                         敌方防御力x                          |    ——    |           Emy_DEF           |
+|          |    敌方防御力增加    |                   敌方防御力+x（多个累加）                   | 直接加算 |         Emy_DEF_Add         |
+|          |  敌方防御力增加倍率  |                  敌方防御力+x%（多个累加）                   | 直接乘算 |      Emy_DEF_Inc_Mult       |
+|   法抗   |                      |                                                              |          |                             |
+|          | 敌方基础法抗[0,100]  |                          敌方法抗x                           |    ——    |        Emy_Spell_RES        |
+|          |     敌方法抗提升     |                    敌方法抗+x（多个累加）                    | 直接加算 |      Emy_Spell_RES_Add      |
+|          |   敌方法抗增加倍率   |                   敌方法抗+x%（多个累乘）                    | 直接乘算 |   Emy_Spell_RES_Inc_Mult    |
+|   减伤   |                      |                                                              |          |                             |
+|          |    敌方百分比减伤    | 受到的<font color="blue">**物理**</font>/<font color="purple">**法术**</font>伤害减少x% | 最终乘算 |      Emy_Perc_Dmg_Red       |
+|  攻击力  |                      |                                                              |          |                             |
+|          |    敌方基础攻击力    |                         敌方攻击力x                          |    ——    |           Emy_ATK           |
+|          |    敌方攻击力增加    |                         敌方攻击力+x                         | 最终加算 |         Emy_ATK_Add         |
+|          |  敌方攻击力增加倍率  |                        敌方攻击力+x%                         | 直接乘算 |      Emy_ATK_Inc_Mult       |
+| 移动速度 |                      |                                                              |          |                             |
+|          |     敌方移动速度     |                        敌方移动速度x                         |    ——    |     Emy_Movement_Speed      |
+|          |   敌方移动速度增加   |                        敌方移动速度+x                        | 最终加算 |   Emy_Movement_Speed_Add    |
+|          | 敌方移动速度增加倍率 |                       敌方移动速度+x%                        | 直接乘算 | Emy_Movement_Speed_Inc_Mult |
+| 攻击速度 |                      |                                                              |          |                             |
+|          |     敌方攻击间隔     |                       敌方攻击间隔x秒                        |    ——    |    Emy_Base_Attack_Time     |
+|          |     敌方攻击速度     |                        敌方攻击速度x                         |    ——    |      Emy_Attack_Speed       |
+|          |   敌方攻击速度增加   |                        敌方攻击速度+x                        | 最终加算 |    Emy_Attack_Speed_Add     |
+| 攻击范围 |                      |                                                              |          |                             |
+|          |   敌方攻击范围半径   |                         攻击半径x格                          |    ——    |          ATK_Range          |
+|   抗性   |                      |                                                              |          |                             |
+|          |       眩晕抗性       |                            有/无                             |    ——    |    Dizziness_Resistance     |
+|          |       冻结抗性       |                            有/无                             |    ——    |      Freeze_Resistance      |
+|          |       浮空抗性       |                            有/无                             |    ——    |     Floating_Resistance     |
+|          |       沉睡抗性       |                            有/无                             |    ——    |      Sleep_Resistance       |
+|          |       战栗抗性       |                            有/无                             |    ——    |    Trembling_Resistance     |
+|   重量   |                      |                                                              |          |                             |
+|          |       重量等级       |                              x                               |    ——    |                             |
+|          |       重量增加       |                              x                               | 最终加算 |                             |
+|          |                      |                                                              |          |                             |
+
+
+
+<span style="font-size: 14px; color: rgba(0, 0, 0, 0.5);">其中x为具体数值</span>
+
+**==伤害乘区计算顺序：直接加算>直接乘算>最终加算>最终乘算==**
+
+==**减抗乘区计算顺序：固定数值(直接加算)＞百分比(直接乘算)＞无视(最终乘算)**==
+
+[文献参考：通过爱国者来研究减防和减抗机制](https://www.taptap.cn/moment/173060419546515053)
+
+### ---阶段1---
+
+- [x] 面相对象式编程
+- [x] <font color="blue">**物理伤害**</font>计算公式
+- [x] <font color="purple">**法术伤害**</font>计算公式
+- [x] <font color="red">**真实伤害**</font>计算公式
+- [x] 选择藏品添加至计算公式
+
+### [伤害计算公式](https://prts.wiki/w/%E6%B8%B8%E6%88%8F%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80#%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F)[^1]
+
+------
+
+<details>
+  <summary>符文</summary>
+  <p>
+    符文是一类特殊加成的统称，通常使用于地图额外数据中，常见的如：<br>
+    突袭特殊条件和危机合约合约条件；<br>
+    部分活动中的特殊机制对特定装置的修改。<br>
+    等。<br><br>
+    因为符文运算基于预先定义的值来修改游戏数据，所以可以用于修改地图设置、地图属性、干员属性、敌人属性以及游戏内地图上的方格等几乎所有内容。<br><br>
+    对于干员，符文属性运算使用的基础值来自基本属性值经过前述属性计算器的运算结果，对于干员之外的实体则为其基本属性。此处以 α 指代此数值。<br><br>
+    因为符文本身并不只是用来计算属性，所以不适用后述的属性基本公式。<br><br>
+    符文属性运算过程中有加算与乘算两种计算方法，并且加算的优先级高于乘算，具体运算方法如下：<br><br>
+    当多种同计算方式数值叠加时，叠加结果为：<br>
+    符文加算结果 Rp = p1 + p2 + ⋯ + pn<br>
+    符文乘算结果 Rt = t1 * t2 * ⋯ * tn<br><br>
+    所以符文属性运算的最终结果为：<br>
+    基础值：A = Rt(α + Rp)<br>
+  </p>
+</details>
+
+
+<details>
+  <summary>属性计算公式</summary>
+  <p>
+    属性变化共有四种计算方式：<br><br>
+    - 直接加算：直接对基础数值进行加算。<br>
+    - 直接乘算：对直接加算完成后的结果进行乘算。<br>
+    - 最终加算：对直接加算和直接乘算完成后的结果进行加算。在当前版本游戏内被描述为“获得额外附加的基础属性加成”（即鼓舞）。<br>
+    - 最终乘算：对其余三种计算方式完成后的结果进行乘算。<br><br>
+    属性变化叠加：除最终乘算为变化数值之间相乘外，其余均为相加。因此，属性变化叠加结果的计算公式为：<br><br>
+    直接加算结果 Dp = p1 + p2 + ⋯ + pn<br>
+    直接乘算结果 Dt = t1 + t2 + ⋯ + tn<br>
+    存在修正：若 Dt < 0 则自动补正为 0。<br>
+    最终加算结果 Fp = p1 + p2 + ⋯ + pn<br>
+    最终乘算结果 Ft = t1 * t2 * ⋯ * tn<br>
+    存在修正：当组成结果的任意一项小于 0 时，自动将其补正为原数值 + 1。<br><br>
+    最终属性结果：指经过游戏数据基础#数值范围限制得到的属性结果。<br>
+    当结果小于其对应的数值范围下限时，取下限，反之亦同。<br><br>
+    最终属性结果 Af = Ft[(A + Dp)(1 + Dt) + Fp]<br>
+  </p>
+</details>
+
+文案来自PRTS社区https://prts.wiki/（菜单→扩展→基础数据→基本公式）
+
+------
+
+
+
+<span style="font-size: 20px;">    <font color="blue"><b>物理伤害</b></font>与<font color="purple"><b>法术伤害</b></font>的最终伤害 = <b>基本伤害 * 伤害倍率</b> </span>
+
+##### <font color="blue">**物理伤害**</font>计算公式↓↓↓
+
+基本<font color="blue">**物理伤害**</font> = **攻击力 \* 最终攻击力倍率 - (1- 百分比无视防御) \* (目标的防御力 - 数值无视防御)**
+
+<font color="blue">**物理伤害**</font> = Max((<abbr title="直接加算" style="color: blue;">(ATK × ATK_Mod + ATK_Add)</abbr> × <abbr title="直接乘算" style="color: blue;">(1 + ATK_Inc_Mult)</abbr> + <abbr title="最终加算" style="color: blue;">Fin_ATK_Add</abbr>) × <abbr title="最终乘算" style="color: blue;">(1 + ATK_Mult) × Skill_Dmg_Mult × (1 + Vul) × (1 + Dmg_Inc) × (1 - Emy_Perc_Dmg_Red)</abbr> × <abbr title="保底伤害倍率" style="color: blue;">0.05</abbr>,
+
+​        ((<abbr title="直接加算" style="color: blue;">(ATK × ATK_Mod + ATK_Add)</abbr> × <abbr title="直接乘算" style="color: blue;">(1 + ATK_Inc_Mult)</abbr> + <abbr title="最终加算" style="color: blue;">Fin_ATK_Add</abbr>) × <abbr title="最终乘算" style="color: blue;">(1 + ATK_Mult) × Skill_Dmg_Mult</abbr> - Max(<abbr title="保底防御力" style="color: blue;">0</abbr>,(<abbr title="直接加算" style="color: blue;">(Emy_DEF + Emy_DEF_Add - Dec_DEF)</abbr> × <abbr title="直接乘算" style="color: blue;">(1 + Emy_DEF_Inc_Mult) × (1 - Prec_Dec_DEF)</abbr> - <abbr title="最终加算" style="color: blue;">Ign_DEF</abbr>) × <abbr title="最终乘算" style="color: blue;">(1 - Ign_Mul_DEF)</abbr>)) × <abbr title=" 最终乘算" style="color: blue;">(1 + Vul) × (1 + Dmg_Inc) × (1 - Emy_Perc_Dmg_Red)</abbr>)
+
+
+
+
+##### <font color="purple">**法术伤害**</font>计算公式↓↓↓
+
+基本<font color="purple">**法术伤害**</font> = **0.01 \* 攻击力 \* 最终攻击力倍率 \* (100 - (1- 百分比无视法抗) \* 目标的法术抗性)**
+
+<font color="purple">**法术伤害**</font> = Max((<abbr title="直接加算" style="color: purple;">(ATK × ATK_Mod + ATK_Add)</abbr> × <abbr title="直接乘算" style="color: purple;">(1 + ATK_Inc_Mult)</abbr> + <abbr title="最终加算" style="color: purple;">Fin_ATK_Add</abbr>) × <abbr title="最终乘算" style="color: purple;">(1 + ATK_Mult) × Skill_Dmg_Mult × (1 + Dmg_Inc) × (1 + Vul) × (1 - Emy_Perc_Dmg_Red)</abbr> × <abbr title="保底伤害倍率" style="color: purple;">0.05</abbr>,
+
+​		(<abbr title="直接加算" style="color: purple;">(ATK × ATK_Mod + ATK_Add)</abbr> × <abbr title="直接乘算" style="color: purple;">(1 + ATK_Inc_Mult)</abbr> + <abbr title="最终加算" style="color: purple;">Fin_ATK_Add</abbr>) × <abbr title="最终乘算" style="color: purple;">(1 + ATK_Mult) × Skill_Dmg_Mult</abbr> × <abbr title="法抗系数" style="color: purple;">0.01</abbr> × (100 - Max(<abbr title="保底魔抗" style="color: purple;">0</abbr>,Min(<abbr title="最高魔抗" style="color: purple;">100</abbr>,(<abbr title="直接加算" style="color: purple;">(Emy_Spell_RES + Emy_Spell_RES_Add - Dec_Spell_RES)</abbr> × <abbr title="直接乘算" style="color: purple;">(1 + Emy_Spell_RES_Inc_Mult) × (1 - Prec_Dec_Spell_RES)</abbr> - <abbr title="最终加算" style="color: purple;">Ign_Spell_RES</abbr>)))) × <abbr title="最终乘算" style="color: purple;">(1 + Vul) × (1 + Dmg_Inc) × (1 - Emy_Perc_Dmg_Red)</abbr>)
+
+
+
+##### <font color="red">**真实伤害**</font>计算公式↓↓↓
+
+<font color="red">**真实伤害**</font> = **攻击力 \* 攻击力倍率 \* 伤害倍率**
+
+<font color="red">**真实伤害**</font> = (<abbr title="直接加算" style="color: red;">(ATK × ATK_Mod + ATK_Add) </abbr>× <abbr title="直接乘算" style="color: red;">(1 + ATK_Inc_Mult) </abbr> + <abbr title="最终加算" style="color: red;">Fin_ATK_Add</abbr>) × <abbr title="最终乘算" style="color: red;">(1 + ATK_Mult) × Skill_Dmg_Mult × (1 + Vul) × (1 + Dmg_Inc)</abbr>
+
+
+
+### ---阶段2---
+
+- [x] 制作图形化界面(Tkinter)
+
+- [x] 制作物理伤害计算界面
+
+- [x] 制作法术伤害计算界面
+
+- [x] 制作真实伤害计算界面
+
+- [x] 添加藏品后伤害计算
+
+- [x] 藏品添加图标 例如：![](F:\大三下\Arknights伤害计算器\object\icon\collections\收藏品_探索者的银凇止境_001.png)
+
+- [x] 分为可切换三种伤害计算界面（<font color="blue">**物理**</font> <font color="purple">**法术** </font><font color="red">**真实**</font>） 
+
+- [ ] 根据不同类型筛选藏品(所有 <abbr title="物理 法术 真实">伤害类型</abbr> <abbr title="先锋 狙击 重装 医疗 近卫 术士 辅助 特种">干员职位</abbr> <abbr title="近战 远程">部署位置</abbr> <abbr title="我方单位 敌方单位 感染生物 坍缩体 萨卡兹 宿主">生效对象</abbr>)
+
+
+#### 界面草图
+
+<img src="F:\大三下\Arknights伤害计算器\UI草稿.png" alt="UI草稿" style="zoom: 15%;" /> 
+
+### 初步界面
+
+### <img src="F:\大三下\Arknights伤害计算器\1阶段界面.png" alt="1阶段界面" style="zoom: 52%;" />
+
+
+
+### ---阶段3---
+
+- [ ] 增加计算结果储存功能
+
+- [ ] 鼠标放置显示藏品效果
+
+
+
+## Arknights伤害计算器2.0——>Arknights属性计算器
+
+- [ ] 添加<font color="orange">**攻速**</font>计算功能
+
+- [ ] 添加<font color="\#CFB53B">奶量</font>计算功能
+
+- [ ] 添加<font color="dark">**防御力**</font>计算功能
+
+- [ ] 添加我方<font color="green">**生命值**</font>计算功能
+
+- [ ] 添加敌方<font color="green">**生命值**</font>计算功能
+
+- [ ] 添加<font color="darblue">**元素损伤**</font>计算功能
+
+## Arknights伤害计算器3.0
+
+- [ ] 美化UI(PyQt5)
+
+- [ ] 藏品选中效果修改
+
+- [ ] 增加藏品图鉴(不同集成战略主题的藏品)
+
+- [ ] 增加敌人图鉴（各类属性）
+
+- [ ] 增加我方干员图鉴（各类属性）
